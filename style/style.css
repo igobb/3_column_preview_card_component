@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+main {
+    display: flex;
+    max-width: 70%;
+    width: 60%;
+    height: 50%;
+    max-width: 807px;
+    letter-spacing: 0.75px;
+    line-height: 1.75;
+}
+.left {
+    background-color: hsl(31, 77%, 52%);
+    padding: 5%;
+    border-radius: 7px 0 0 7px;
+    position: relative;
+}
+.middle {
+    background-color: hsl(184, 100%, 22%);
+    padding: 5%;
+    position: relative;
+}
+.right {
+    background-color: hsl(179, 100%, 13%);
+    padding: 5%;
+    border-radius: 0 7px 7px 0;
+    position: relative;
+}
+button {
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    position: absolute;
+    bottom: 10%;
+    /* padding: 15px 30px; */
+    padding: 5% 10%;
+    border-radius: 50px;
+}
+button:hover {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid white;
+}
+.button_orange:hover {
+    background-color: hsl(31, 77%, 52%);
+    /* color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid white; */
+}
+.button_dark_cyan:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+.button_very_dark_cyan:hover {
+    background-color: hsl(179, 100%, 13%);
+}
+span {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+}
+.button_orange {
+    color: hsl(31, 77%, 52%);
+}
+.button_dark_cyan {
+    color: hsl(184, 100%, 22%);
+}
+.button_very_dark_cyan {
+    color: hsl(179, 100%, 13%);
+}
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    font-size: 35px;
+    letter-spacing: 0px;
+    margin: 10px 0;
+}
+p {
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+img {
+    width: 50px;
+    height: 30px;
+}
+@media only screen and (max-width: 767px) {
+    main {
+        display: block;
+        min-width: 335px;
+        height: 90%;
+    }
+    .left {
+        padding: 15%;
+        border-radius: 7px 7px 0 0px;
+        height: 300px;
+    }
+    .middle {
+        padding: 15%;
+        height: 300px;
+    }
+    .right {
+        padding: 15%;
+        border-radius: 0 0 7px 7px ;
+        height: 300px;
+    }
+    h1 {
+        /* font-size: 30px; */
+    }
+    p {
+        font-size: 14px;
+    }
+    button {
+        margin-top: 20px;
+        padding: 4% 8%;
+    }
+}
