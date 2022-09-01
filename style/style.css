@@ -12,6 +12,7 @@ main {
     max-width: 70%;
     width: 60%;
     height: 50%;
+    min-height: 380px;
     max-width: 807px;
     letter-spacing: 0.75px;
     line-height: 1.75;
